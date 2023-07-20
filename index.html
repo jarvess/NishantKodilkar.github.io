@@ -869,30 +869,20 @@
             <div class="col-twelve">
 
                 <!-- form -->
-		<form id="contactForm" method="POST">
+		<form action="https://formspree.io/f/xzblzgpw" method="POST">
   <label for="name">Name:</label>
   <input type="text" name="name" id="name" required>
-
+  
   <label for="email">Email:</label>
   <input type="email" name="_replyto" id="email" required>
-
+  
   <label for="subject">Subject:</label>
   <input type="text" name="subject" id="subject" required>
-
+  
   <label for="message">Message:</label>
   <textarea name="message" id="message" rows="4" required></textarea>
-
+  
   <input type="submit" value="Send">
-</form>
-
-<script>
-  window.addEventListener("DOMContentLoaded", function() {
-    // Set the form's action dynamically
-    var form = document.getElementById("contactForm");
-    form.setAttribute("action", "https://formspree.io/f/xzblzgpw");
-  });
-</script>
-
 </form>
                 <!-- Form End -->
 
